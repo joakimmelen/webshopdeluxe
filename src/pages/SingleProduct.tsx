@@ -73,14 +73,14 @@ function SingleProduct({ addToCart, removeFromCart }: Props) {
       <Typography variant="h3" component="h1" marginTop={3}>
       {product.title}
       </Typography>
-      <Box marginTop={3} sx={{ display: "flex" }}>
+      {/* <Box marginTop={3} sx={{ display: "flex" }}> */}
         <img
           src={product.image}
           height={350}
         //   width={500}
         />
       
-      </Box>
+      {/* </Box> */}
       <Typography variant="h6" component="h4" marginTop={3}>
         About this product
       </Typography>

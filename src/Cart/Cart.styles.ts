@@ -6,8 +6,15 @@ export const Wrapper = styled.aside`
     padding: 10px;
     display: grid;
     button {
-        color: orange
+        /* color: rgba(170, 150, 183, 1); */
+        color: rgba(170, 150, 183, 1);
+        background-color: white;
     }
+
+    button:hover {
+        background-color: rgba(170, 150, 183, 0.7);;
+    }
+
     .cartTotal {
         display: flex;
         justify-content: space-between;
@@ -17,6 +24,11 @@ export const Wrapper = styled.aside`
         bottom: 0;
         background-color: white;
         align-items: center;
-        border-top: 1px solid orange;
+        border-top: 1px solid rgba(170, 150, 183, 1);
     }
+
+    @media screen and (max-width: 500px) {
+    width: 90%;
+  }
+
 `

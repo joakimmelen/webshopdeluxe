@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid rgba(170, 150, 183, 1);
     padding-bottom: 10px;
     padding-top: 10px;
     height: 100px;
@@ -26,5 +26,14 @@ export const Wrapper = styled.div`
         object-fit: contain;
         margin-left: 30px;
         
+    }
+
+    button {
+        color: whitesmoke;
+        font-size: 1.2rem;
+    }
+
+    button:hover {
+        color: royalblue;
     }
 `

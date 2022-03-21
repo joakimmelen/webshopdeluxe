@@ -26,7 +26,7 @@ function Navbar({ addToCart, removeFromCart }: Props) {
         alignItems="center"
         spacing={2}
         >
-            <img src="https://via.placeholder.com/150x50" alt="logo" />
+            <img src="src/assets/logo/logo_ful.png" alt="logo" height="50px" />
             <nav>
                 <Link to="/">News</Link>
                 <Link to="/products">Products</Link>

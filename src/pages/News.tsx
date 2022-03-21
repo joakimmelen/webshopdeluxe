@@ -4,18 +4,17 @@ import React from 'react'
 function News() {
   return (
     <Container>
-      <Typography variant="h3" component="h1" marginTop={3}>
-        Immerse into the Falls
+      <Typography variant="h3" component="h1" marginTop={7}>
+        Welcome to the cool and new J-Store
       </Typography>
-      <Box marginTop={3} sx={{ display: "flex" }}>
+      {/* <Box marginTop={1} sx={{ display: "grid" }}> */}
         <img
-          src="https://media.timeout.com/images/105124791/750/422/image.jpg"
+          src="src/assets/logo/logo.png"
           height={325}
         />
-      
-      </Box>
+      {/* </Box> */}
       <Typography variant="h6" component="h4" marginTop={3}>
-        About this ticket
+        About this store
       </Typography>
       <Box sx={{ display: "flex" }}>
         <Typography variant="h5" component="p" marginY={3}>

@@ -14,6 +14,7 @@ import { Wrapper } from './App.styles'
 import Cart from './Cart/Cart'
 import Checkout from './pages/Checkout'
 import Navbar from './partials/Navbar'
+import Navbar2 from './partials/Navbar2'
 import { CartItemType } from './types'
 import { useRecoilState } from 'recoil'
 import { cartState } from './stores/cart/Atom'
@@ -69,10 +70,11 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar 
+      {/* <Navbar 
       addToCart={handleAddToCart}
       removeFromCart={handleRemoveFromCart}
-      />
+      /> */}
+      <Navbar2 />
         <Routes key={location.pathname}>
         <Route path="/" element={<News />} />
         <Route path="/products" element={<Products 

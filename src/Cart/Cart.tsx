@@ -24,7 +24,7 @@ const Cart: React.FC<Props> = ({ cartItems, addToCart, removeFromCart }) => {
    
     return (
         <Wrapper>
-            <h2>Your Shopping Cart</h2> <Button onClick={() => setCart({...cart, open: false})} component={Link} to="/Checkout" size="large">Checkout</Button>
+            <h2>Your Shopping Cart <Button onClick={() => setCart({...cart, open: false})}>Close cart</Button> </h2> <Button onClick={() => setCart({...cart, open: false})} component={Link} to="/checkout" size="large">Checkout</Button>
             {cartItems.length === 0 ? <p>No items in cart.</p> : null}
             {cartItems.map(item => (
                 <CartItem 
@@ -36,7 +36,7 @@ const Cart: React.FC<Props> = ({ cartItems, addToCart, removeFromCart }) => {
                 )
                 )
             }
-            {cartItems.length > 0 ? <Button onClick={() => setCart({...cart, items: [] as CartItemType[]})}>Empty cart</Button> : null}
+            {cartItems.length > 0 ? <Button variant="text" onClick={() => setCart({...cart, items: [] as CartItemType[]})}>Empty cart</Button> : null}
             
             <div className="cartTotal">
                 <p>{calculateQuantity(cartItems)} items</p>

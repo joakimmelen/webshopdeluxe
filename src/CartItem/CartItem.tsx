@@ -24,6 +24,7 @@ const CartItem: React.FC<Props> = ({ item, addToCart, removeFromCart }) => (
                 size="small"
                 disableElevation
                 variant="contained"
+                style={{ background: 'rgba(170, 150, 183, 1)' }}
                 onClick={() => removeFromCart(item.id)}
                 >
                     -
@@ -33,6 +34,7 @@ const CartItem: React.FC<Props> = ({ item, addToCart, removeFromCart }) => (
                 size="small"
                 disableElevation
                 variant="contained"
+                style={{ background: 'rgba(170, 150, 183, 1)' }}
                 onClick={() => addToCart(item)}
                 >
                     +

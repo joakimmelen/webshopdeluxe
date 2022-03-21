@@ -4,7 +4,7 @@ import React from 'react'
 function Contact() {
   return (
     <Container maxWidth="lg">
-    <Box sx={{ bgcolor: 'orange', height: '100vh' }}>
+    <Box sx={{ bgcolor: 'rgba(170, 150, 183, 1)', height: '100vh' }}>
        <Typography>Contact us plzz</Typography>
     </Box>
 </Container>

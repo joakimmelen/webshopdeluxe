@@ -4,7 +4,7 @@ import React from 'react'
 function About() {
   return (
     <Container maxWidth="lg">
-    <Box sx={{ bgcolor: 'orange', height: '100vh' }}>
+    <Box sx={{ bgcolor: 'rgba(170, 150, 183, 1)', height: '100vh' }}>
        <Typography>About us, all about us</Typography>
     </Box>
 </Container>

@@ -6,20 +6,20 @@ export const Wrapper = styled.nav`
         position: sticky;
         top: 0;
         background-color: white;
-        border-bottom: 1px solid orange;
+        border-bottom: 1px solid rgba(170, 150, 183, 1);
         text-decoration: none;
         z-index: 50;
         nav, nav a:link, nav a:visited, nav a:active {
             display: flex;
             justify-content: space-between;
-            gap: 5px;
-            color: orange;
+            gap: 7px;
+            color: rgba(170, 150, 183, 1);;
             text-decoration: none;
-            font-size: 1rem;
+            font-size: 1.3rem;
             text-transform: uppercase;
         }
         nav a:hover {
-            color: rgba(255, 166, 0, 0.678);
+            color: rgba(170, 150, 183, 0.5);
         }
 `
 
